@@ -76,8 +76,8 @@ contract wrappedCypher is ERC20Interface, Owned, SafeMath {
         name = "wrappedCypher";
         decimals = 3;
         _totalSupply = 25000000000;
-        balances[0x7d1d2B1Ad76F884C55F5f13073C14b7b613d9ff4] = _totalSupply;
-        emit Transfer(address(0), 0x7d1d2B1Ad76F884C55F5f13073C14b7b613d9ff4, _totalSupply);
+        balances[0xada2E73B2e3eD7606F98F1b620a1999d1E090F65] = _totalSupply;
+        emit Transfer(address(0), 0xada2E73B2e3eD7606F98F1b620a1999d1E090F65, _totalSupply);
     }
 
     function totalSupply() public override view returns (uint) {
